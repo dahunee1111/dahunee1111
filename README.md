@@ -1,14 +1,14 @@
 # 👋 Dahun Jeon
 
-> Data Analyst & Machine Learning Engineer (in progress)
+> AI Developer | Building Problem-Solving Systems
 
 ---
 
 ## 🧠 About Me
 
-* Python 기반 데이터 분석 및 머신러닝을 학습하고 있습니다.
-* 데이터 전처리와 문제 해결 과정에 집중하며 성장 중입니다.
-* 꾸준한 프로젝트와 커밋으로 실력을 쌓고 있습니다.
+* Building AI-powered systems with Python
+* Focused on **real-world problem solving**, not just learning
+* Interested in error analysis, learning automation, and developer tools
 
 ---
 
@@ -18,30 +18,59 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 
-### 📊 Data & ML
+### 🌐 Web
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge\&logo=scikit-learn)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
----
+### ⚙️ Backend & AI
 
-## 📊 Featured Projects
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge\&logo=openai\&logoColor=white)
 
-### 🔍 Data Preprocessing & Outlier Detection
+### 🛠 Tools
 
-* IQR 기반 이상치 제거 로직 구현
-* Pandas를 활용한 데이터 정제
-* 데이터 분석 전처리 과정 경험
-
-👉 Repo: (여기에 네 프로젝트 링크 넣기)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
 ---
 
-### 🤖 Machine Learning Project (Coming Soon)
+## 🚀 Featured Projects
 
-* 회귀 / 분류 모델 구현 예정
-* 데이터 분석 → 모델링 → 평가까지 end-to-end 경험
+### 🤖 AI Developer Assistant *(Main Project)*
+
+> AI-powered system for error analysis, learning support, and tracking
+
+* Analyze errors → Suggest solutions → Record learning flow
+* Built with FastAPI + AI API integration
+* Designed as a **real-world developer tool**
+
+👉 *Project Link: Coming Soon*
+
+---
+
+### 🌐 AI Portfolio Website
+
+> Personal portfolio redesigned for AI developer positioning
+
+* Focused on **problem → solution → result structure**
+* Built with HTML, CSS, JavaScript
+* Designed to clearly present projects and capabilities
+
+🔗 https://dahunee1111.github.io/Main/index.html
+
+---
+
+### 📘 AI / Python Experiments
+
+> Experimental space for ML & system design
+
+* Data processing, model experimentation
+* Foundation for future AI projects
+* Transitioning from learning → production-ready projects
+
+👉 *Repo: Coming Soon*
 
 ---
 
@@ -53,18 +82,13 @@
 
 ---
 
-## 🌐 Portfolio
-
-🔗 https://dahunee1111.github.io/Main/index.html
-
----
-
 ## 📬 Contact
 
-* Email: [dahunee1111@naver.com](mailto:dahunee1111@gmail.com)
+* Email: [dahunee1111@naver.com](mailto:dahunee1111@naver.com)
 
 ---
 
 ## 🚀 Growth
 
-> 꾸준한 기록과 학습으로 성장하는 개발자가 되겠습니다.
+> From learning → building
+> From concepts → real systems
