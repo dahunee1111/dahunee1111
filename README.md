@@ -1,14 +1,69 @@
 # 👋 Dahun Jeon
 
-> AI Developer | Building Problem-Solving Systems
+> AI Developer | Building Real-World Problem Solving Systems
 
 ---
 
 ## 🧠 About Me
 
-- Building AI-powered systems with Python  
-- Focused on **real-world problem solving**, not just learning  
-- Interested in error analysis, learning automation, and developer tools  
+- Building **AI-powered systems** using Python and FastAPI  
+- Focused on **solving real-world problems**, not just learning  
+- Interested in **developer tools, automation, and learning systems**  
+- Experienced in **end-to-end development (Frontend → Backend → Deployment)**  
+
+---
+
+## 🚀 Live Project
+
+### 🤖 AI Developer Assistant *(Main Project)*  
+> AI-powered developer learning & analysis platform
+
+🔗 **Live Demo**  
+https://dahunee1111.github.io/AI-Developer-Assistant/
+
+---
+
+### 🔥 Key Features
+
+- 🧠 AI-based error analysis and solution guidance  
+- 💻 Code review and improvement suggestions  
+- 📚 Learning journal & study tracking  
+- 📅 Attendance system with learning day calculation  
+- 💰 Log-based point reward system  
+- 🛒 Shop system with profile customization  
+- 📊 Data visualization with charts  
+
+---
+
+### ⚙️ Tech Stack
+
+- **Backend**: FastAPI, SQLite  
+- **Frontend**: HTML, CSS, JavaScript  
+- **AI**: Ollama  
+- **Deployment**:  
+  - Backend → Render  
+  - Frontend → GitHub Pages  
+
+---
+
+### 🧩 Architecture
+
+Frontend (GitHub Pages)  
+→ Backend (FastAPI - Render)  
+→ Database (SQLite)
+
+---
+
+### 💡 Key Implementation
+
+- **Log-based Point System**  
+  → All points stored in logs, calculated via SUM (scalable structure)
+
+- **Learning Day Calculation**  
+  → Attendance + journal data combined for real study tracking
+
+- **Full Deployment Experience**  
+  → Built and deployed a complete working web service
 
 ---
 
@@ -35,54 +90,16 @@
 
 ---
 
-## 🚀 Featured Projects
-
-### 🤖 AI Developer Assistant *(Main Project)*  
-> AI-powered developer learning support system
-
-- AI-based code error analysis and solution guidance  
-- Learning journal and attendance tracking implemented  
-- Growth chart visualization based on saved study data  
-- Built with **FastAPI + HTML/CSS/JavaScript + SQLite + Ollama**  
-- MVP completed with **analysis → saving → visualization** flow
-
-👉 *Project Link: Coming Soon*
-
----
-
-### 🌐 AI Portfolio Website  
-> Personal portfolio redesigned for AI developer positioning
-
-- Focused on **problem → solution → implementation → result** structure  
-- Built with HTML, CSS, JavaScript  
-- Designed to clearly present projects and capabilities  
+## 🌐 Portfolio
 
 🔗 https://dahunee1111.github.io/Main/index.html
-
----
-
-### 📘 AI / Python Experiments  
-> Experimental space for ML and system design
-
-- Data processing and model experimentation  
-- Foundation for future AI projects  
-- Transitioning from learning → project-based development  
-
-👉 *Repo: Coming Soon*
 
 ---
 
 ## 📈 GitHub Stats
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=dahunee1111&show_icons=true&theme=tokyonight)  
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dahunee1111&layout=compact&theme=tokyonight)
-
----
-
-## 🌐 Portfolio
-
-🔗 https://dahunee1111.github.io/Main/index.html
 
 ---
 
@@ -95,4 +112,5 @@
 ## 🚀 Growth
 
 > From learning → building  
-> From ideas → real systems
+> From ideas → real systems  
+> From local code → deployed services
