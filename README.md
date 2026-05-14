@@ -350,15 +350,6 @@ https://ai-behavior-system.onrender.com/
 
 https://dahunee1111.github.io/Main/index.html
 
----
-
-# 📈 GitHub Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=dahunee1111&show_icons=true&theme=tokyonight)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dahunee1111&layout=compact&theme=tokyonight)
-
----
 
 # 🚀 Future Goals
 
