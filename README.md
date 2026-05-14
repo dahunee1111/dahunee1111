@@ -1,7 +1,7 @@
 # 👋 Dahun Jeon
 
 > AI Developer | Building Real-World AI Systems  
-> AI · Backend · Computer Vision · Problem Solving · System Development
+> AI · Backend · Computer Vision · Deployment · Problem Solving · System Development
 
 ---
 
@@ -15,14 +15,18 @@ Currently, I am developing:
 - Real-time CCTV danger detection systems
 - AI behavior analysis pipelines
 - Backend APIs and integrated service architectures
+- Docker-based deployment environments
+- Cloud-based AI service operations
 
 I am especially interested in:
 
 - AI system engineering
 - Computer Vision
+- Backend API architecture
 - Automation systems
 - AI-based monitoring & response systems
 - End-to-end service development
+- Docker & cloud deployment
 
 From AI model integration to backend APIs, frontend connections, deployment, and system operation,  
 I aim to build complete working AI services.
@@ -37,7 +41,20 @@ I aim to build complete working AI services.
 
 > AI-powered developer learning & analysis platform
 
-An AI-based web platform designed to support developer learning, error analysis, and study management.
+An AI-based web platform designed to support developer learning, error analysis, code review, study tracking, and learning visualization.
+
+This project was built as a fullstack AI service with:
+
+- FastAPI backend API
+- GitHub Pages frontend
+- SQLite database
+- JWT authentication
+- Ollama-based AI analysis
+- Docker-based backend environment
+- AWS EC2 server deployment
+- DuckDNS domain connection
+
+---
 
 ## 🔥 Main Features
 
@@ -56,52 +73,98 @@ An AI-based web platform designed to support developer learning, error analysis,
 ## ⚙️ Tech Stack
 
 ### Backend
+
 - Python
 - FastAPI
 - SQLite
 - SQLAlchemy
+- Pydantic
+- JWT / python-jose
 
 ### Frontend
+
 - HTML
 - CSS
 - JavaScript
 - Chart.js
 
 ### AI
+
 - Ollama
+- Local AI Environment
 
 ### Deployment
-- Backend → Render
-- Frontend → GitHub Pages
+
+- Docker
+- AWS EC2
+- DuckDNS
+- GitHub Pages
 
 ---
 
 ## 🧩 Architecture
 
-Client UI  
-→ FastAPI API Server  
-→ AI Analysis System  
-→ SQLite Database  
-→ Learning Visualization & History System
+```text
+Client UI (GitHub Pages)
+        ↓
+Backend API (FastAPI + AWS EC2 + DuckDNS)
+        ↓
+AI Analysis System
+        ↓
+SQLite Database
+        ↓
+Learning Visualization & History System
+```
+
+---
+
+## 🌐 Deployment
+
+```text
+User Browser
+        ↓
+GitHub Pages Frontend
+        ↓
+https://dahun-ai.duckdns.org
+        ↓
+AWS EC2 Server
+        ↓
+Docker Container
+        ↓
+FastAPI Backend
+        ↓
+SQLite Database
+```
 
 ---
 
 ## 💡 Key Implementation
 
 ### Log-Based Point System
+
 All points are stored as logs and calculated dynamically using SUM queries for scalable structure design.
 
 ### Learning Day Tracking
+
 Attendance records and study journal data are combined to calculate actual learning continuity.
 
+### JWT Authentication
+
+Implemented login authentication using JWT and connected user state management with frontend localStorage.
+
 ### Full Deployment Experience
-Built and deployed a complete AI web service including frontend, backend, database, and AI integration.
+
+Built and deployed a complete AI web service including frontend, backend, database, AI integration, Docker environment, and AWS EC2 server operation.
 
 ---
 
 ## 🌐 Live Project
 
-🔗 https://dahunee1111.github.io/AI-Developer-Assistant/
+Frontend  
+https://dahunee1111.github.io/AI-Developer-Assistant/
+
+Backend API  
+https://dahun-ai.duckdns.org
 
 ---
 
@@ -110,7 +173,18 @@ Built and deployed a complete AI web service including frontend, backend, databa
 > AI-powered real-time CCTV monitoring & danger response system  
 > Team Project
 
-An integrated AI surveillance system designed for real-time abnormal behavior detection, dangerous object detection, and automated response workflows.
+An integrated AI surveillance system designed for real-time abnormal behavior detection, dangerous object detection, risk score calculation, and automated response workflows.
+
+This project combines:
+
+- MediaPipe Pose behavior analysis
+- LSTM-based abnormal behavior detection
+- YOLO-based dangerous object detection
+- FastAPI backend API
+- Admin monitoring dashboard
+- Discord danger alert system
+- RAG-based response guide
+- Docker + Render deployment
 
 ---
 
@@ -133,12 +207,14 @@ An integrated AI surveillance system designed for real-time abnormal behavior de
 ## ⚙️ Tech Stack
 
 ### Backend
+
 - Python
 - FastAPI
 - SQLite
 - SQLAlchemy
 
 ### AI / Computer Vision
+
 - PyTorch
 - YOLO
 - OpenCV
@@ -147,27 +223,65 @@ An integrated AI surveillance system designed for real-time abnormal behavior de
 - LSTM
 
 ### Frontend
+
 - HTML
 - CSS
 - JavaScript
 - Chart.js
 
 ### Notification
+
 - Discord Webhook
+
+### Deployment
+
+- Docker
+- Render
+- GitHub
 
 ---
 
 ## 🧩 AI Pipeline
 
-Video Input  
-→ Behavior Analysis (LSTM)  
-→ Dangerous Object Detection (YOLO)  
-→ Risk Score Calculation  
-→ Response Decision  
-→ Discord Alert  
-→ RAG Response Guide  
-→ Database Storage  
-→ Admin Dashboard Visualization
+```text
+Video Input
+        ↓
+Behavior Analysis (MediaPipe + LSTM)
+        ↓
+Dangerous Object Detection (YOLO)
+        ↓
+Risk Score Calculation
+        ↓
+Response Decision
+        ↓
+Discord Alert
+        ↓
+RAG Response Guide
+        ↓
+Database Storage
+        ↓
+Admin Dashboard Visualization
+```
+
+---
+
+## 🌐 Deployment
+
+```text
+User Browser
+        ↓
+Render Web Service
+        ↓
+Docker Container
+        ↓
+FastAPI Backend
+        ↓
+AI Analysis Pipeline
+        ↓
+SQLite Database
+        ↓
+Admin Dashboard / Alert System
+```
 
 ---
 
@@ -178,7 +292,14 @@ This project aims to move beyond simple object detection and create a real AI mo
 - understanding dangerous situations,
 - calculating risk levels,
 - generating response actions,
-- and supporting real-time monitoring workflows.
+- sending real-time danger alerts,
+- supporting admin monitoring workflows.
+
+---
+
+## 🌐 Live Project
+
+https://ai-behavior-system.onrender.com/
 
 ---
 
@@ -216,6 +337,8 @@ This project aims to move beyond simple object detection and create a real AI mo
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)  
 ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge)  
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
@@ -224,7 +347,8 @@ This project aims to move beyond simple object detection and create a real AI mo
 # 🌐 Portfolio
 
 ## Portfolio Website
-🔗 https://dahunee1111.github.io/Main/index.html
+
+https://dahunee1111.github.io/Main/index.html
 
 ---
 
@@ -242,7 +366,8 @@ This project aims to move beyond simple object detection and create a real AI mo
 - Improve real-time AI analysis pipelines
 - Develop production-level AI backend systems
 - Expand AI + automation integrated services
-- Build Docker & cloud-based deployment environments
+- Improve Docker-based deployment environments
+- Expand AWS EC2 / Render cloud operation experience
 - Create complete AI service architectures from model to deployment
 
 ---
@@ -250,6 +375,8 @@ This project aims to move beyond simple object detection and create a real AI mo
 # 📬 Contact
 
 - Email: dahunee1111@naver.com
+- GitHub: https://github.com/dahunee1111
+- Portfolio: https://dahunee1111.github.io/Main/index.html
 
 ---
 
@@ -263,4 +390,4 @@ This project aims to move beyond simple object detection and create a real AI mo
 
 # 📄 License
 
-This project is for portfolio and educational purposes.
+This profile README is for portfolio and educational purposes.
