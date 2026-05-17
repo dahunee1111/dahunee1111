@@ -1,5 +1,9 @@
 # 👋 Dahun Jeon
 
+## 🌐 Personal Portfolio Website
+
+https://dahunee1111.github.io/Main/index.html
+
 > AI Developer | Building Real-World AI Systems  
 > AI · Backend · Computer Vision · Deployment · Problem Solving · System Development
 
@@ -39,9 +43,9 @@ I aim to build complete working AI services.
 
 # 🤖 AI Developer Assistant
 
-> AI-powered developer learning & analysis platform
+> AI-powered developer learning, code analysis, and chatbot support platform
 
-An AI-based web platform designed to support developer learning, error analysis, code review, study tracking, and learning visualization.
+An AI-based web platform designed to support developer learning, error analysis, code review, study tracking, learning visualization, and real-time chatbot interaction.
 
 This project was built as a fullstack AI service with:
 
@@ -49,7 +53,9 @@ This project was built as a fullstack AI service with:
 - GitHub Pages frontend
 - SQLite database
 - JWT authentication
-- Ollama-based AI analysis
+- Hugging Face API-based AI response flow
+- Floating AI chatbot assistant
+- Rule-based fallback response system
 - Docker-based backend environment
 - AWS EC2 server deployment
 - DuckDNS domain connection
@@ -60,6 +66,9 @@ This project was built as a fullstack AI service with:
 
 - 🧠 AI-based error analysis and solution guidance
 - 💻 Code review and improvement suggestions
+- 🤖 Floating AI chatbot for project, Python, FastAPI, and deployment questions
+- 💬 User-specific chatbot conversation history
+- 🛡 Rule-based fallback chatbot responses when AI API is unavailable
 - 📚 Learning journal & study tracking
 - 📅 Attendance system with learning day calculation
 - 💰 Log-based point reward system
@@ -90,8 +99,11 @@ This project was built as a fullstack AI service with:
 
 ### AI
 
-- Ollama
-- Local AI Environment
+- Hugging Face Inference API
+- Project-aware AI chatbot
+- Rule-based fallback response
+- AI error analysis prompt flow
+- Code review prompt flow
 
 ### Deployment
 
@@ -107,9 +119,11 @@ This project was built as a fullstack AI service with:
 ```text
 Client UI (GitHub Pages)
         ↓
+Floating Chatbot UI / Service Pages
+        ↓
 Backend API (FastAPI + AWS EC2 + DuckDNS)
         ↓
-AI Analysis System
+AI Analysis / Chatbot / Service Logic
         ↓
 SQLite Database
         ↓
@@ -152,9 +166,29 @@ Attendance records and study journal data are combined to calculate actual learn
 
 Implemented login authentication using JWT and connected user state management with frontend localStorage.
 
+### Floating AI Chatbot Integration
+
+Implemented a floating chatbot UI fixed to the bottom-right side of the website, allowing users to ask questions from any main page without moving to a separate screen.
+
+The chatbot is connected to the FastAPI `/chat` API and supports:
+
+- project explanation
+- technology stack guidance
+- EC2 / Docker deployment explanation
+- Python and FastAPI questions
+- error-solving workflow guidance
+- user-specific conversation history storage
+- fallback responses when the AI API is unavailable
+- fixed project information such as the developer name and service structure
+
+### Docker-Based Backend Operation
+
+The backend is operated inside a Docker container on AWS EC2.  
+The SQLite database is mounted from the EC2 host to the container to preserve service data during rebuilds and redeployments.
+
 ### Full Deployment Experience
 
-Built and deployed a complete AI web service including frontend, backend, database, AI integration, Docker environment, and AWS EC2 server operation.
+Built and deployed a complete AI web service including frontend, backend, database, AI integration, Docker environment, AWS EC2 server operation, DuckDNS domain connection, and GitHub Pages frontend deployment.
 
 ---
 
@@ -327,7 +361,7 @@ https://ai-behavior-system.onrender.com/
 ![YOLO](https://img.shields.io/badge/YOLO-111111?style=for-the-badge)  
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)  
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge)  
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)  
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)  
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
 ---
@@ -350,6 +384,7 @@ https://ai-behavior-system.onrender.com/
 
 https://dahunee1111.github.io/Main/index.html
 
+---
 
 # 🚀 Future Goals
 
@@ -360,6 +395,8 @@ https://dahunee1111.github.io/Main/index.html
 - Improve Docker-based deployment environments
 - Expand AWS EC2 / Render cloud operation experience
 - Create complete AI service architectures from model to deployment
+- Improve project-aware chatbot response quality
+- Build personalized AI learning feedback features
 
 ---
 
