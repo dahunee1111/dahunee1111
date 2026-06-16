@@ -337,6 +337,154 @@ https://ai-behavior-system.onrender.com/
 
 ---
 
+# 🔬 Agentic Annotation Pipeline
+
+> Multi-agent LLM pipeline for automated correction & quality evaluation
+
+A 6-stage agentic pipeline that automatically reviews, corrects, and quality-scores four content types — code, translations, documents, and AI responses — using type-specialized AI agents with an LLM-as-Judge quality gate.
+
+This project was built as a fullstack AI service with:
+
+- FastAPI backend API
+- 6-stage multi-agent pipeline (Review → Correction → Verifier → Explanation → Humanization → Quality)
+- Type-specialized agents (code / translation / document / AI-response)
+- LLM-as-Judge automatic quality scoring
+- Gemini 2.5 Flash integration
+- JWT authentication
+- SQLite database
+- Real-time pipeline progress tracking
+- Dark mode & responsive UI
+- Docker-based production deployment (multi-stage build)
+- AWS EC2 + Nginx reverse proxy + HTTPS (Let's Encrypt)
+- DuckDNS domain connection
+
+---
+
+## 🔥 Main Features
+
+- 🤖 6-stage multi-agent correction pipeline
+- 🧩 Type-specialized agents for code, translation, document, and AI responses
+- ⚖️ LLM-as-Judge automatic quality evaluation (Correctness / Human-like / Consistency)
+- 🔁 Verification & retry mechanism with quality threshold gating
+- 📊 Before/after diff view & quality score visualization
+- 💬 User-friendly Korean error messages by failure cause
+- 🌙 Dark mode with system theme detection
+- 📱 Responsive design for mobile & tablet
+- 🔐 JWT-based authentication system
+- 📈 Dashboard with statistics & charts
+
+---
+
+## ⚙️ Tech Stack
+
+### Backend
+
+- Python
+- FastAPI
+- SQLite
+- SQLAlchemy
+- Pydantic
+- JWT / python-jose
+
+### Frontend
+
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+
+### AI
+
+- Gemini 2.5 Flash
+- Multi-agent orchestration
+- LLM-as-Judge quality evaluation
+- Type-specialized prompt flows
+- Verification & retry logic
+
+### Deployment
+
+- Docker (multi-stage build)
+- AWS EC2
+- Nginx (reverse proxy + HTTPS)
+- Let's Encrypt
+- DuckDNS
+
+---
+
+## 🧩 Pipeline
+
+```text
+Input (Code / Translation / Document / AI Response)
+        ↓
+Review Agent (error detection)
+        ↓
+Correction Agent (fix generation)
+        ↓
+Verifier Agent (validation + retry)
+        ↓
+Explanation Agent (reasoning)
+        ↓
+Humanization Agent (natural language)
+        ↓
+Quality Agent (LLM-as-Judge scoring)
+        ↓
+SQLite Database
+        ↓
+Dashboard Visualization
+```
+
+---
+
+## 🌐 Deployment
+
+```text
+User Browser
+        ↓
+https://dahun-annotation.duckdns.org
+        ↓
+Nginx (HTTPS Reverse Proxy)
+        ↓
+AWS EC2 Server
+        ↓
+Docker Container
+        ↓
+FastAPI Backend
+        ↓
+SQLite Database
+```
+
+---
+
+## 💡 Key Implementation
+
+### Multi-Agent Orchestration
+
+Designed a 6-stage pipeline where each stage is handled by a dedicated agent, with an agent registry that routes requests to type-specialized agents (code, translation, document, AI-response) sharing a common base interface.
+
+### LLM-as-Judge Quality Gate
+
+Implemented automatic quality scoring across three dimensions (Correctness, Human-like, Consistency). Results below a configurable threshold are rejected, triggering a retry mechanism for higher output reliability.
+
+### User-Friendly Error Handling
+
+Pipeline failures are translated into cause-specific Korean guidance messages (quota limit, API key, quality threshold, timeout, etc.) while raw exceptions are kept in server logs only.
+
+### Production Deployment
+
+Deployed with a multi-stage Docker build (non-root container, health check), an Nginx reverse proxy with auto-renewing Let's Encrypt HTTPS certificates, and persistent volumes for database and logs on AWS EC2.
+
+---
+
+## 🌐 Live Project
+
+Live Demo  
+https://dahun-annotation.duckdns.org
+
+Source Code  
+https://github.com/dahunee1111/agentic-annotation-pipeline
+
+---
+
 # ⚙️ Overall Technical Experience
 
 ## 🧩 Languages
@@ -362,6 +510,7 @@ https://ai-behavior-system.onrender.com/
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)  
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge)  
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)  
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)  
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
 ---
@@ -373,6 +522,7 @@ https://ai-behavior-system.onrender.com/
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)  
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)  
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)  
 ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge)  
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
